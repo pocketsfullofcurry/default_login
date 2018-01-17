@@ -1,0 +1,16 @@
+.app-header{
+  background: $header-bg;
+  color: $header-color;
+}
+.app-header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  max-width: $site-max-width; //sets max distance between h1 and logout
+  margin:0 auto;// moves wrapper to center of screen
+  padding: $space;
+}
+
+.app-header__title {
+  margin:0//centers h1 in div by making all margins 0
+
+}

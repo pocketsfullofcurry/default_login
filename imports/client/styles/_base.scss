@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+html {
+  font-size:62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:$base-font-size;
+}
+
+h1 {
+  font-weight: 300; //makes the text thinner
+  margin-bottom: $space;
+}
+
+h2 {
+  font-size:$large-font-size;
+  margin-bottom:$space;
+}
+
+p{
+  margin-bottom:$space;
+}
+
+a {
+  color:black;
+}
+
+//need to indicate the different types since just input alone would effect checkbox as well.
+input[type=text], input[type=email], input[type=password] {
+  border: 1px solid $grey;
+  font-size: $base-font-size;
+  margin-bottom: $space;
+  padding: $input-spacing;
+}
