@@ -6,6 +6,7 @@ import Signup from '../ui/SignUp';
 import Link from '../ui/Link';
 import NotFound from '../ui/NotFound';
 import LogIn from '../ui/LogIn';
+import Tester from '../ui/Tester';
 
 const unauthenticatedPages=['/', '/signup']; //pages you CAN'T see if you ARE athenticated.
 const authenticatedPages=['/links']; //pages you CAN see if you ARE authenticated.
@@ -38,7 +39,7 @@ export const routes = (
     <Router history={browserHistory}>
       <Route path="/" component={LogIn} onEnter={onEnterPublicPage}/>
       <Route path="/signup" component={Signup} onEnter={onEnterPublicPage}/>
-      <Route path="/links" component={Link} onEnter={onEnterPrivatePage}/>
+      <Route path="/links" component={Tester} onEnter={onEnterPrivatePage}/>
       <Route path="*" component={NotFound}/>
     </Router>
 );
