@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Daye = (props) => {
+const DayBtn = (props) => {
   return (
 
       <button className={props.coco}>{props.hour}</button>
@@ -8,4 +8,4 @@ const Daye = (props) => {
   )
 };
 
-export default Daye;
+export default DayBtn;

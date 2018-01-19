@@ -6,23 +6,42 @@ export default class Tester extends React.Component{
     return (
       <div>
         <div className="flex-week">
-        <Day hour="1" coco="day-item blue"/>
-        <Day hour="2" coco="day-item red"/>
-        <Day hour="3" coco="day-item blue"/>
-        <Day hour="4" coco="day-item green"/>
-        <Day hour="5" coco="day-item yellow"/>
-        <Day hour="6" coco="day-item pink"/>
-        <Day hour="7" coco="day-item red"/>
+        <Day hour="01" coco="day-item "/>
+        <Day hour="02" coco="day-item "/>
+        <Day hour="03" coco="day-item "/>
+        <Day hour="04" coco="day-item "/>
+        <Day hour="05" coco="day-item "/>
+        <Day hour="06" coco="day-item "/>
+        <Day hour="07" coco="day-item "/>
         </div>
         <div className="flex-week">
-        <Day hour="8" coco="day-item blue"/>
-        <Day hour="9" coco="day-item red"/>
-        <Day hour="10" coco="day-item blue"/>
-        <Day hour="11" coco="day-item green"/>
-        <Day hour="12" coco="day-item yellow"/>
-        <Day hour="13" coco="day-item pink"/>
-        <Day hour="14" coco="day-item red"/>
+        <Day hour="08" coco="day-item "/>
+        <Day hour="09" coco="day-item "/>
+        <Day hour="10" coco="day-item "/>
+        <Day hour="11" coco="day-item "/>
+        <Day hour="12" coco="day-item "/>
+        <Day hour="13" coco="day-item "/>
+        <Day hour="14" coco="day-item "/>
         </div>
+        <div className="flex-week">
+        <Day hour="21" coco="day-item "/>
+        <Day hour="22" coco="day-item "/>
+        <Day hour="23" coco="day-item "/>
+        <Day hour="24" coco="day-item "/>
+        <Day hour="25" coco="day-item "/>
+        <Day hour="26" coco="day-item "/>
+        <Day hour="27" coco="day-item "/>
+        </div>
+        <div className="flex-week">
+        <Day hour="28" coco="day-item "/>
+        <Day hour="29" coco="day-item "/>
+        <Day hour="30" coco="day-item "/>
+        <Day hour="01" coco="day-item "/>
+        <Day hour="02" coco="day-item "/>
+        <Day hour="03" coco="day-item "/>
+        <Day hour="04" coco="day-item "/>
+        </div>
+        
       </div>
     );
   };
