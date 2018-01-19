@@ -6,6 +6,15 @@ export default class Tester extends React.Component{
     return (
       <div>
         <div className="flex-week">
+        <div className="day-item__header">M</div>
+        <div className="day-item__header">T</div>
+        <div className="day-item__header">W</div>
+        <div className="day-item__header">T</div>
+        <div className="day-item__header">F</div>
+        <div className="day-item__header">S</div>
+        <div className="day-item__header">S</div>
+        </div>
+        <div className="flex-week">
         <Day hour="01" cName="day-item "/>
         <Day hour="02" cName="day-item blue "/>
         <Day hour="03" cName="day-item green"/>

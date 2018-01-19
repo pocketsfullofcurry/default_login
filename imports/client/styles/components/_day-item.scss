@@ -1,25 +1,26 @@
 .day-item{
    padding:1rem;
    margin: 1rem .2rem;
-   border: .2rem solid black;
+   border: .2rem solid  #dddddd;
   // cursor: pointer;
    font-size: 1.8rem;
   text-align:center;
   background-color: transparent;
+  color:darken(#dddddd,30%);
 }
 .red{
   color:red;
   background:white;
 }
 .blue{
-  color: blue;
+  color: lighten(blue,20%);
   background:white;
   font-weight: 600;
-  border: .2rem solid blue;
+  border: .2rem solid lighten(blue,10%);
 }
 .green{
-  border: .2rem solid green;
-  color:green;
+  border: .2rem solid lighten(green,10%);
+  color:lighten(green,20%);
   font-weight: 600;
 
 }
@@ -31,9 +32,19 @@
   color: pink;
   background: white;
 }
-
+/////////////////////////////
 .flex-week{
   display:flex;
   justify-content: space-evenly;
 
+}
+//////////////////////
+.day-item__header{
+  padding:1rem;
+  margin: 1rem .2rem;
+  border-bottom: .1rem solid black;
+ // cursor: pointer;
+  font-size: 1.8rem;
+ text-align:center;
+ background-color: transparent;
 }
