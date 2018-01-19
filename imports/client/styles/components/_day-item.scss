@@ -13,13 +13,13 @@
   background:white;
 }
 .blue{
-  color: #080a89;
+  color: #3134f7;
   background:white;
   font-weight: 600;
-  border: .2rem solid #080a89;
+  border: .2rem solid darken(#3134f7,30%);
 }
 .green{
-  color:#108708;
+  color:#53a35b;
   border: .2rem solid #108708;
   font-weight: 600;
 
@@ -42,9 +42,10 @@
 .day-item__header{
   padding:1rem;
   margin: 1rem .2rem;
-  border-bottom: .1rem solid black;
+  border-bottom: .1rem solid #dddddd;
  // cursor: pointer;
   font-size: 1.8rem;
  text-align:center;
  background-color: transparent;
+ color:darken(#dddddd,30%)
 }
