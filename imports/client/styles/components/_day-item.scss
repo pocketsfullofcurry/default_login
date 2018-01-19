@@ -1,9 +1,9 @@
 .day-item{
    padding:1rem;
    margin: 1rem .2rem;
-   border:0px;
+   border:1px solid black;
   // cursor: pointer;
-   font-size: 1.6rem;
+   font-size: 1.2rem;
   text-align:center;
   background-color: transparent;
 }
@@ -16,8 +16,8 @@
   background:white;
 }
 .green{
+  border: 1px solid green;
   color:green;
-  background:white;
 }
 .yellow{
   color: yellow;
