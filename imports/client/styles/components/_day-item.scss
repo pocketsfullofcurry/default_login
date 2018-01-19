@@ -1,21 +1,22 @@
 .day-item{
    padding:1rem;
    margin: 1rem .2rem;
-   border:1px solid black;
+   border:0px;
   // cursor: pointer;
    font-size: 2.5rem;
   text-align:center;
+  background-color: transparent;
 }
 .red{
   color:red;
   background:white;
 }
 .blue{
-  color: blue;
+  border: 2px solid blue;
   background:white;
 }
 .green{
-  color: green;
+  border:2px solid green;
   background:white;
 }
 .yellow{
