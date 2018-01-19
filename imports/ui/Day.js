@@ -4,17 +4,17 @@ export default class DayBtn extends React.Component{
   constructor(props){
     super(props);
   }
-renderMonth() {
+renderDayBtn() {
   if(this.props.hour.length > 2) {
     let btnArray = this.props.hour.split(" ");
-      return <button className={this.props.coco}>{btnArray[0]}<br/>{btnArray[1]}</button>
+      return <button className={this.props.cName}>{btnArray[0]}<br/>{btnArray[1]}</button>
   } else {
-      return <button className={this.props.coco}>{this.props.hour}</button>
+      return <button className={this.props.cName}>{this.props.hour}</button>
   }
 }
 render(){
   return (
-    this.renderMonth()
+    this.renderDayBtn()
   )
 }
 
