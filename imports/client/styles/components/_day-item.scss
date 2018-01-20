@@ -13,10 +13,10 @@
   background:white;
 }
 .blue{
-  color: #3134f7;
+  color: #4f9bff;
   background:white;
   font-weight: 600;
-  border: .2rem solid darken(#3134f7,30%);
+  border: .2rem solid #4f9bff;
 }
 .green{
   color:#53a35b;
@@ -24,8 +24,21 @@
   font-weight: 600;
 
 }
+.greenb{
+  color: #82d175;
+    border: .2rem solid #82d175;
+    background:white;
+    font-weight: 600;
+}
+.greendark{
+  color: darken(#82d175,20%);
+    border: .2rem solid darken(#82d175,20%);
+    background:white;
+    font-weight: 600;
+}
 .yellow{
-  color: yellow;
+  color: #82d175;
+    border: .2rem solid #82d175;
   background:white;
 }
 .pink{

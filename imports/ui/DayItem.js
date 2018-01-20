@@ -20,7 +20,7 @@ export default class Tester extends React.Component{
         <Day hour="03" cName="day-item green"/>
         <Day hour="04" cName="day-item blue "/>
         <Day hour="05" cName="day-item "/>
-        <Day hour="06" cName="day-item "/>
+        <Day hour="06" cName="day-item greenb"/>
         <Day hour="07" cName="day-item "/>
         </div>
         <div className="flex-week">
@@ -36,7 +36,7 @@ export default class Tester extends React.Component{
         <Day hour="21" cName="day-item "/>
         <Day hour="22" cName="day-item blue"/>
         <Day hour="23" cName="day-item "/>
-        <Day hour="24" cName="day-item "/>
+        <Day hour="24" cName="day-item greendark"/>
         <Day hour="25" cName="day-item "/>
         <Day hour="26" cName="day-item "/>
         <Day hour="27" cName="day-item "/>
