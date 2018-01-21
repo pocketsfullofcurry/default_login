@@ -1,8 +1,10 @@
+
 import {Meteor} from 'meteor/meteor';
 import {Mongo} from 'meteor/mongo';
 import SimpleSchema from 'simpl-schema';
 import shortid from 'shortid';
-export const Links = new Mongo.Collection('links');
+let chicken = "links";
+export const Links = new Mongo.Collection(chicken);
 
 if (Meteor.isServer){
   Meteor.publish('links', function() {
